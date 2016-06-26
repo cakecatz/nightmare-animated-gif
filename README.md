@@ -37,7 +37,8 @@ nightmare
 
 **generated gif**
 
-![animated_gif](./search.gif)
+![animated_gif](https://cloud.githubusercontent.com/assets/6136383/16363987/25690ae0-3c17-11e6-876c-65f31547257f.gif)
+
 
 ## Documentation
 
