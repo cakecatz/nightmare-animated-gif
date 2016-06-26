@@ -1,6 +1,6 @@
 {
   "name": "nightmare-animated-gif",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nightmare plugin for generating animated gif.",
   "main": "index.js",
   "scripts": {
