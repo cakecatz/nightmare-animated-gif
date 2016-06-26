@@ -10,7 +10,7 @@ npm i nightmare-animated-gif
 
 ## Usage
 
-Use `.use(animatedGif.add(label))` like `.screenshot()`.  
+Use `.use(animatedGif.captureAs(label))` like `.screenshot()`.  
 After that, you can use `generate(label)` for generate animated gif 😎
 
 ```javascript
@@ -19,12 +19,12 @@ var nightmare = Nightmare();
 
 nightmare
   .goto('http://yahoo.com')
-  .use(animatedGif.add('search'))
+  .use(animatedGif.captureAs('search'))
   .type('form[action*="/search"] [name=p]', 'github nightmare')
-  .use(animatedGif.add('search'))
+  .use(animatedGif.captureAs('search'))
   .click('form[action*="/search"] [type=submit]')
   .wait('#main')
-  .use(animatedGif.add('search'))
+  .use(animatedGif.captureAs('search'))
   .end()
   .then(() => {
     animatedGif.generate('search', './search.gif', {
