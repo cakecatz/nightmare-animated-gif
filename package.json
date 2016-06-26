@@ -4,7 +4,8 @@
   "description": "Nightmare plugin for generating animated gif.",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "mkdir": "mkdir -p ./test/outputs",
+    "test": "npm run mkdir && ava"
   },
   "keywords": [
     "e2e",
