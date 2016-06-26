@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+      }
+      #app {
+        height: 100%;
+      }
+    </style>
+    <title>test</title>
+  </head>
+  <body>
+    <div id="app">
+      <button id="red"></button>
+      <button id="blue"></button>
+      <button id="green"></button>
+    </div>
+    <script>
+      Array.from(document.querySelectorAll('button')).forEach(button => {
+        button.onclick = e => {
+          document.querySelector('#app').style.backgroundColor = e.currentTarget.id;
+        };
+      });
+    </script>
+  </body>
+</html>

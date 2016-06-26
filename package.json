@@ -1,0 +1,27 @@
+{
+  "name": "nightmare-animated-gif",
+  "version": "0.0.1",
+  "description": "Nightmare plugin for generating animated gif.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "e2e",
+    "gif",
+    "nightmare"
+  ],
+  "author": "Ryo Narita<mail.ryonarita@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nightmare": "^2.5.2",
+    "rimraf": "^2.5.2"
+  },
+  "dependencies": {
+    "gifencoder": "^1.0.6",
+    "image-size": "^0.5.0",
+    "png-file-stream": "^1.0.0",
+    "tmp": "0.0.28"
+  }
+}
