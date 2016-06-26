@@ -1,4 +1,4 @@
-# nightmare animated gif
+# nightmare animated gif [![CircleCI](https://circleci.com/gh/cakecatz/nightmare-animated-gif/tree/master.svg?style=svg)](https://circleci.com/gh/cakecatz/nightmare-animated-gif/tree/master)
 
 [Nightmare](https://github.com/segmentio/nightmare) plugin for generating animated gif.
 
@@ -44,6 +44,9 @@ nightmare
 ### Settings
 
 #### `generate(label, output, encoderOptions)`
+
+- `encoderOptions` is [gifencoder](https://github.com/eugeneware/gifencoder)'s option.  
+  You can see full options at [here](https://github.com/eugeneware/gifencoder/blob/master/lib/GIFEncoder.js#L37).
 
 ## LICENSE
 MIT
