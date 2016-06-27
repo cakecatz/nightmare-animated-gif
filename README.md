@@ -15,6 +15,7 @@ After that, you can use `generate(label)` for generate animated gif 😎
 
 ```javascript
 var Nightmare = require('nightmare');
+var animatedGif = require('nightmare-animated-gif');
 var nightmare = Nightmare();
 
 nightmare
